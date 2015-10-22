@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02DA6ABA1BD959BA0089836C /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DA6AB71BD959950089836C /* ResearchKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		02DA6ABB1BD959BA0089836C /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02DA6AB71BD959950089836C /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02789EB41BD96518003526DF /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02789E371BD961C5003526DF /* ResearchKit.framework */; };
+		02789EB51BD96518003526DF /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02789E371BD961C5003526DF /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02DBEBA61BB32042009E4A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DBEBA51BB32042009E4A19 /* AppDelegate.swift */; };
 		02DBEBA81BB32042009E4A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DBEBA71BB32042009E4A19 /* ViewController.swift */; };
 		02DBEBAB1BB32042009E4A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DBEBA91BB32042009E4A19 /* Main.storyboard */; };
@@ -19,23 +19,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02DA6AB61BD959950089836C /* PBXContainerItemProxy */ = {
+		02789E361BD961C5003526DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 02DA6AB01BD959950089836C /* ResearchKit.xcodeproj */;
+			containerPortal = 02789E301BD961C5003526DF /* ResearchKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B183A5951A8535D100C76870;
 			remoteInfo = ResearchKit;
 		};
-		02DA6AB81BD959950089836C /* PBXContainerItemProxy */ = {
+		02789E381BD961C5003526DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 02DA6AB01BD959950089836C /* ResearchKit.xcodeproj */;
+			containerPortal = 02789E301BD961C5003526DF /* ResearchKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
 			remoteInfo = ResearchKitTests;
 		};
-		02DA6ABC1BD959BA0089836C /* PBXContainerItemProxy */ = {
+		02789EB61BD96518003526DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 02DA6AB01BD959950089836C /* ResearchKit.xcodeproj */;
+			containerPortal = 02789E301BD961C5003526DF /* ResearchKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = B183A4731A8535D100C76870;
 			remoteInfo = ResearchKit;
@@ -57,13 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		02DA6ABE1BD959BA0089836C /* Embed Frameworks */ = {
+		02789EB81BD96518003526DF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02DA6ABB1BD959BA0089836C /* ResearchKit.framework in Embed Frameworks */,
+				02789EB51BD96518003526DF /* ResearchKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02DA6AB01BD959950089836C /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		02789E301BD961C5003526DF /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		02DBEBA21BB32042009E4A19 /* HelloHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DBEBA51BB32042009E4A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02DBEBA71BB32042009E4A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02DA6ABA1BD959BA0089836C /* ResearchKit.framework in Frameworks */,
+				02789EB41BD96518003526DF /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,11 +113,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02DA6AB11BD959950089836C /* Products */ = {
+		02789E311BD961C5003526DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02DA6AB71BD959950089836C /* ResearchKit.framework */,
-				02DA6AB91BD959950089836C /* ResearchKitTests.xctest */,
+				02789E371BD961C5003526DF /* ResearchKit.framework */,
+				02789E391BD961C5003526DF /* ResearchKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 		02DBEB991BB32042009E4A19 = {
 			isa = PBXGroup;
 			children = (
-				02DA6AB01BD959950089836C /* ResearchKit.xcodeproj */,
+				02789E301BD961C5003526DF /* ResearchKit.xcodeproj */,
 				02DBEBA41BB32042009E4A19 /* HelloHealth */,
 				02DBEBB91BB32042009E4A19 /* HelloHealthTests */,
 				02DBEBC41BB32042009E4A19 /* HelloHealthUITests */,
@@ -184,12 +184,12 @@
 				02DBEB9E1BB32042009E4A19 /* Sources */,
 				02DBEB9F1BB32042009E4A19 /* Frameworks */,
 				02DBEBA01BB32042009E4A19 /* Resources */,
-				02DA6ABE1BD959BA0089836C /* Embed Frameworks */,
+				02789EB81BD96518003526DF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				02DA6ABD1BD959BA0089836C /* PBXTargetDependency */,
+				02789EB71BD96518003526DF /* PBXTargetDependency */,
 			);
 			name = HelloHealth;
 			productName = HelloHealth;
@@ -267,8 +267,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 02DA6AB11BD959950089836C /* Products */;
-					ProjectRef = 02DA6AB01BD959950089836C /* ResearchKit.xcodeproj */;
+					ProductGroup = 02789E311BD961C5003526DF /* Products */;
+					ProjectRef = 02789E301BD961C5003526DF /* ResearchKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -281,18 +281,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		02DA6AB71BD959950089836C /* ResearchKit.framework */ = {
+		02789E371BD961C5003526DF /* ResearchKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ResearchKit.framework;
-			remoteRef = 02DA6AB61BD959950089836C /* PBXContainerItemProxy */;
+			remoteRef = 02789E361BD961C5003526DF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		02DA6AB91BD959950089836C /* ResearchKitTests.xctest */ = {
+		02789E391BD961C5003526DF /* ResearchKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ResearchKitTests.xctest;
-			remoteRef = 02DA6AB81BD959950089836C /* PBXContainerItemProxy */;
+			remoteRef = 02789E381BD961C5003526DF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -353,10 +353,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02DA6ABD1BD959BA0089836C /* PBXTargetDependency */ = {
+		02789EB71BD96518003526DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ResearchKit;
-			targetProxy = 02DA6ABC1BD959BA0089836C /* PBXContainerItemProxy */;
+			targetProxy = 02789EB61BD96518003526DF /* PBXContainerItemProxy */;
 		};
 		02DBEBB81BB32042009E4A19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -475,9 +475,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.Daisy.HelloHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cornell.HelloHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -486,9 +487,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.Daisy.HelloHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cornell.HelloHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
