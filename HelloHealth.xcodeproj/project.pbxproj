@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025253701BDEFDEF0095A26A /* SurveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252536F1BDEFDEF0095A26A /* SurveyTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		025253741BDEFE1E0095A26A /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025253731BDEFE1E0095A26A /* SurveyViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		025253781BDF019D0095A26A /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025253771BDF019D0095A26A /* SurveyTask.swift */; settings = {ASSET_TAGS = (); }; };
 		02789EB41BD96518003526DF /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02789E371BD961C5003526DF /* ResearchKit.framework */; };
 		02789EB51BD96518003526DF /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02789E371BD961C5003526DF /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		02DBEBA61BB32042009E4A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DBEBA51BB32042009E4A19 /* AppDelegate.swift */; };
@@ -71,6 +74,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0252536F1BDEFDEF0095A26A /* SurveyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTableViewController.swift; sourceTree = "<group>"; };
+		025253731BDEFE1E0095A26A /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		025253771BDF019D0095A26A /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		02789E301BD961C5003526DF /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		02DBEBA21BB32042009E4A19 /* HelloHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DBEBA51BB32042009E4A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,7 +154,10 @@
 			children = (
 				02DBEBA51BB32042009E4A19 /* AppDelegate.swift */,
 				02DBEBA71BB32042009E4A19 /* ViewController.swift */,
+				025253731BDEFE1E0095A26A /* SurveyViewController.swift */,
+				025253771BDF019D0095A26A /* SurveyTask.swift */,
 				02DBEBA91BB32042009E4A19 /* Main.storyboard */,
+				0252536F1BDEFDEF0095A26A /* SurveyTableViewController.swift */,
 				02DBEBAC1BB32042009E4A19 /* Assets.xcassets */,
 				02DBEBAE1BB32042009E4A19 /* LaunchScreen.storyboard */,
 				02DBEBB11BB32042009E4A19 /* Info.plist */,
@@ -331,6 +340,9 @@
 			files = (
 				02DBEBA81BB32042009E4A19 /* ViewController.swift in Sources */,
 				02DBEBA61BB32042009E4A19 /* AppDelegate.swift in Sources */,
+				025253781BDF019D0095A26A /* SurveyTask.swift in Sources */,
+				025253741BDEFE1E0095A26A /* SurveyViewController.swift in Sources */,
+				025253701BDEFDEF0095A26A /* SurveyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

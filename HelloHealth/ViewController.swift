@@ -7,13 +7,15 @@
 //
 
 import UIKit
-import ResearchKit
 
-class ViewController: UIViewController, ORKTaskViewControllerDelegate {
 
+class ViewController: UIViewController{
+
+    @IBOutlet weak var BStartSurvey: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.navigationBarHidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,21 +24,11 @@ class ViewController: UIViewController, ORKTaskViewControllerDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        let myStep = ORKInstructionStep(identifier: "intro")
-        myStep.title = "Hello Health Kit"
-        let task = ORKOrderedTask(identifier: "task", steps: [myStep])
-        let taskViewController = ORKTaskViewController(task: task, taskRunUUID: nil)
-        taskViewController.delegate = self
-        presentViewController(taskViewController, animated: true, completion: nil)
+        self.navigationController?.navigationBarHidden = true
     }
-    func taskViewController(taskViewController: ORKTaskViewController,
-        didFinishWithReason reason: ORKTaskViewControllerFinishReason,
-        error: NSError?) {
-            let taskResult = taskViewController.result
-            // You could do something with the result here.
-            
-            // Then, dismiss the task view controller.
-            dismissViewControllerAnimated(true, completion: nil)
+    
+    @IBAction func StartSurveyPressed(sender: UIButton) {
+        
     }
 }
 
